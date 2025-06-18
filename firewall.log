@@ -1,0 +1,5 @@
+Firewall Log Started - 2025-06-18 15:01:11
+============================================================
+[2025-06-18 15:01:11] ALLOWED: 192.168.1.100 -> 8.8.8.8 | Protocol: TCP | Port: 80 | Size: 1024 bytes | Reason: Default allow policy
+[2025-06-18 15:01:12] ALLOWED: 10.0.0.1 -> 192.168.1.1 | Protocol: UDP | Port: 53 | Size: 512 bytes | Reason: DNS query allowed
+[2025-06-18 15:01:13] BLOCKED: 192.168.1.999 -> 192.168.1.1 | Protocol: TCP | Port: 22 | Size: 256 bytes | Reason: Blocked source IP

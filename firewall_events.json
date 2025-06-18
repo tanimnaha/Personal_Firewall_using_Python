@@ -1,0 +1,38 @@
+[
+  {
+    "timestamp": "2025-06-18 15:01:11",
+    "action": "ALLOWED",
+    "packet_info": {
+      "src_ip": "192.168.1.100",
+      "dst_ip": "8.8.8.8",
+      "protocol": "TCP",
+      "dst_port": 80,
+      "size": 1024
+    },
+    "reason": "Default allow policy"
+  },
+  {
+    "timestamp": "2025-06-18 15:01:12",
+    "action": "ALLOWED",
+    "packet_info": {
+      "src_ip": "10.0.0.1",
+      "dst_ip": "192.168.1.1",
+      "protocol": "UDP",
+      "dst_port": 53,
+      "size": 512
+    },
+    "reason": "DNS query allowed"
+  },
+  {
+    "timestamp": "2025-06-18 15:01:13",
+    "action": "BLOCKED",
+    "packet_info": {
+      "src_ip": "192.168.1.999",
+      "dst_ip": "192.168.1.1",
+      "protocol": "TCP",
+      "dst_port": 22,
+      "size": 256
+    },
+    "reason": "Blocked source IP"
+  }
+]
